@@ -9,6 +9,7 @@ export default function HeroSection() {
   return (
     <section id="home" className="relative min-h-screen pt-28 pb-16 flex items-center bg-[#0c0d12]">
       {/* Right Side Construction Background Image with Blueprint Wireframe Overlay */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="absolute right-0 top-0 bottom-0 w-full lg:w-[70%] h-full opacity-90 lg:opacity-100 overflow-hidden">
           <video
             autoPlay
